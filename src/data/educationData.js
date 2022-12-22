@@ -1,12 +1,17 @@
-import minesImage from '../images/mines.jpg'
+import BenedictineLogo from '../images/BenedictineLogo.png'
 
 const allEducation = [
   {
-    title: "Bachelor's Degree, Computer Science",
-    company: 'Colorado School of Mines',
-    date: 'August 2019 - December 2022',
-    image: minesImage,
-    subtitle: 'Emphasis in Mechanical Engineering'
+    title: "Bachelor's Degree, Graphic Design",
+    company: 'Benedictine College',
+    date: 'August 2019 - May 2023',
+    image: BenedictineLogo,
+  },
+  {
+    title: "Bachelor's Degree, Marketing",
+    company: 'Benedictine College',
+    date: 'August 2019 - May 2023',
+    image: BenedictineLogo,
   }
 ]
 

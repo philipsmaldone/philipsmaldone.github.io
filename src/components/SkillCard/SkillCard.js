@@ -8,13 +8,13 @@ const SkillCard = ({ category, image, skills }) => {
   }
 
   return (
-        <div className="max-w-md m-10 bg-white rounded-xl shadow-md overflow-hidden md:max-w-full border-amber-500 border-b-2">
+        <div className="max-w-md m-10 bg-white rounded-xl shadow-md overflow-hidden md:max-w-full border-sky-700 border-b-2">
             <div className="md:flex">
                 <div className="md:shrink-0">
                     <img src={image} className={'h-48 w-full object-cover md:h-full md:w-48'} alt={category + ' graphic'}></img>
                 </div>
                 <div className="flex flex-col grow justify-center p-8">
-                    <div className="text-center text-amber-500">{category}</div>
+                    <div className="text-center text-sky-700">{category}</div>
                     <div className="flex flex-col justify-center">{allSkills}</div>
                 </div>
                 </div>

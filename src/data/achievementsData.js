@@ -1,34 +1,12 @@
-import eagleImage from '../images/eagle.jpg'
-import icrImage from '../images/icr.jpg'
-import minesImage from '../images/mines.jpg'
-import googleImage from '../images/google.jpg'
+import defaultImage from '../images/windowsBackground.jpg'
 
 const allAchievements = [
   {
-    title: 'C-MAPP Scholar',
-    image: googleImage,
+    title: 'Scholar',
+    image: defaultImage,
     date: 'Fall 2022',
-    company: 'Google'
-  },
-  {
-    title: 'C-MAPP Scholar',
-    image: icrImage,
-    date: 'Fall 2021',
-    company: 'ICR'
-  },
-  {
-    title: "Dean's List",
-    image: minesImage,
-    date: 'All Semesters',
-    company: 'Colorado School of Mines'
-  },
-  {
-    title: 'Eagle Scout',
-    image: eagleImage,
-    date: 'December 2016',
-    company: 'Boy Scouts of America'
+    company: 'Description'
   }
-
 ]
 
 export default allAchievements
